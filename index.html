@@ -1,1 +1,104 @@
-Hello, This is Fangzheng's Web
+<!DOCTYPE html>
+<html>
+<title>Fangzheng's NMM</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<!-- <link rel="stylesheet" href="style.css"> -->
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata"> -->
+<style>
+body, html {
+  height: 100%;
+  /*font-family: "Inconsolata", sans-serif;*/
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("img/header.png");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#HOME" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#WORK" class="w3-button w3-block w3-black">WORK</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#ABOUT" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#LINK" class="w3-button w3-block w3-black">LINK</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="HOME">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>NMM</b></span> <span class="w3-hide-small w3-text-light-grey">2020</span></h1>
+  </div>
+</header>
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1566px">
+
+  <!-- WORK Section -->
+  <div class="w3-container w3-padding-32" id="WORK">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><b>WORK</b></h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <center>
+      <p><button class="glow-on-hover" onclick="window.location.href = 'final/final.html';"><b>Final: Underwater hair</b></button></p>
+      <p><button class="glow-on-hover" onclick="window.location.href = 'week1/week1.html';"><b>WEEK_01: Maxwell's Demon</b></button></p>
+      <p><button class="glow-on-hover" onclick="window.location.href = 'week2/week2.html';"><b>WEEK_02: ODE</b></button></p>
+      <p><button class="glow-on-hover" onclick="window.location.href = 'week3/week3.html';"><b>WEEK_03: Random System</b></button></p>
+      <p><button class="glow-on-hover" onclick="window.location.href = 'week4/week4.html';"><b>WEEK_04: FD ODE</b></button></p>
+
+      <p><button class="glow-on-hover" onclick="window.location.href = 'week5/week5.html';"><b>WEEK_05: FD PDE</b></button></p>
+      <p><button class="glow-on-hover" onclick="window.location.href = 'week6/week6.html';"><b>WEEK_06: FE</b></button></p>
+      <p><button class="glow-on-hover" onclick="window.location.href = 'week8/week8.html';"><b>WEEK_08: Search</b></button></p>
+      <p><button class="glow-on-hover" onclick="window.location.href = 'week9/week9.html';"><b>WEEK_09: Transform</b></button></p>
+      <p><button class="glow-on-hover" onclick="window.location.href = 'week10/week10.html';"><b>WEEK_10: Architectures</b></button></p>
+    </center>
+
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="ABOUT">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><b>ABOUT ME</b></h3>
+    <p>Hi! My name is Fangzheng Liu. I'm from China. I'm a first year Master & RA in <a href= 'https://www.media.mit.edu/'>MIT Medialab </a>, <a href= 'https://www.media.mit.edu/groups/responsive-environments/overview/'> Responsive Environment group </a>. After I got my Master degree in Information & Signal Processing, I worked in <a href= 'https://ams.nasa.gov/'> Alpha Megnetic Spectrometer (AMS-02) Experiment </a> at <a href= 'https://home.cern/'> European Organization for Nuclear Research (CERN)</a> as a software engineer for one year.
+    </br></br>
+    <h4><b>FYI-I'm a huge fan of ONE PIECE!</b>   <img src="source.gif" style="width:10%;"></h4>
+    </p>
+  </div>
+
+  <!-- Links Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h3 id="LINK"><b>LINK</b></h3>
+
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+        <button class="w3-button w3-black w3-padding-large w3-margin-bottom" onclick="window.location.href = 'https://www.Google.com/';">Google</button>
+        <button class="w3-button w3-black w3-padding-large w3-margin-bottom" onclick="window.location.href = 'https://www.youtube.com/';">YouTube</button>
+        <button class="w3-button w3-black w3-padding-large w3-margin-bottom" onclick="window.location.href = 'http://fab.cba.mit.edu/classes/MAS.864/';">Class</button>
+        <button class="w3-button w3-black w3-padding-large w3-margin-bottom" onclick="window.location.href = 'https://gitlab.cba.mit.edu/classes/863.19/CBA/cbasite';">Class GitLab</button>
+    </form>
+  </div>
+
+<!-- End page content -->
+</div>
+
+</body>
+</html>
+
